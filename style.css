@@ -1,0 +1,76 @@
+* { box-sizing: border-box; }
+body {
+    background: #dbf5ff;
+    background: linear-gradient(90deg, rgba(219, 245, 255, 1) 0%, rgba(38, 159, 189, 1) 52%, rgba(15, 152, 250, 1) 100%);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: rgb(248, 248, 250);
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px solid #1b0599;
+}
+
+p {
+    line-height: 1.6;
+}
+
+#intro {
+    font-style: italic;
+}
+
+.imporatant {
+    font-weight: bold;
+}
+
+.blanc {
+    background-color: rgb(248, 246, 246);
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.bleu-ciel {
+    background-color: rgb(124, 200, 250);
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    padding: 50px;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+
+.carte {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin: 16px 0;
+    background: #9ce3ff;
+    background: linear-gradient(90deg, rgba(156, 227, 255, 1) 0%, rgba(0, 180, 224, 1) 52%, rgba(15, 152, 250, 1) 100%);
+    max-width: 400px
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+nav {
+    background-color: cornflowerblue;
+    padding: 12px;
+}
